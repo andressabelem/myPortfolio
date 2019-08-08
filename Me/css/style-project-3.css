@@ -1,0 +1,120 @@
+/*PROJECT*/
+	
+	.objective {
+		width: 100%;
+		background-color: #112F65;
+	}
+
+	.font-box-1 p {
+		font-family: 'Oswald', sans-serif;
+		font-size: 12px;
+		margin: -10px;
+	}
+
+	.font-box-1 p:nth-child(1) {
+		font-size: 18px;
+		margin-bottom: 15px;
+		margin-top: 30px;
+	}
+	
+	.font-box-2 p {
+		font-family: 'Oxygen', sans-serif;
+		font-size: 10px;
+		font-weight: bold;
+		margin: -10px;
+	}
+
+	.font-box-2 p:nth-child(1) {
+		font-size: 16px;
+		margin-bottom: 15px;
+		margin-top: 30px;
+	}
+
+	.colors-box li {
+		display: inline-block;
+		margin-top: 30px;
+	}
+
+	.colors-box  li:nth-child(1) {
+		border: 4px solid #1A3D7C;
+		margin-right: 30px;
+	}
+
+	.colors-box  li:nth-child(2) {
+		border: 4px solid #071939;
+	}
+
+	.colors-box  li:nth-child(3) {
+		border: 4px solid #224477;
+	}
+
+	.colors-box  li:nth-child(4) {
+		border: 4px solid #112F65;
+	}
+
+	.colors-box  li:nth-child(5) {
+		border: 4px solid #050B1B;
+		margin-right: 30px;
+	}
+
+	.colors-box  li:nth-child(6) {
+		border: 4px solid #FFFFFF;
+	}
+	
+	.other-projects {
+		margin-top: 105px;
+	}
+
+	.other-projects-1 {			
+		background: url("../img/other-project-2.jpg") no-repeat;
+		background-position: center;
+		transition: .6s;
+	}
+
+	.other-projects-2 {
+		background: url("../img/other-project-1.jpg") no-repeat;
+		background-position: center;
+		transition: .6s;
+	}
+
+@media only screen and (min-width: 641px) {
+
+	.colors-box  li:nth-child(2) {
+		margin-right: 30px;
+	}
+
+	.colors-box  li:nth-child(4) {
+		margin-right: 30px;
+	}
+
+	.other-projects-1 {			
+		background-size: 506.33px 393.81px;
+	}
+
+	.other-projects-2 {
+		background-size: 506.33px 393.81px;
+	}
+
+	.other-projects-1:hover {
+		background-size: 613px 476.78px;
+	}
+
+	.other-projects-2:hover {
+		background-size: 613px 476.78px;
+	}
+	
+}
+
+@media only screen and (max-width: 640px) {
+	.colors-box li:nth-child(3) {
+		margin-right: 30px;
+	}
+
+	.other-projects-1 {			
+		background-size: 300px 233.33px;
+	}
+
+	.other-projects-2 {
+		background-size: 300px 233.33px;
+	}
+}
